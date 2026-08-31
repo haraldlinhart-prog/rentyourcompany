@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — RentYourCompany.com</title>
+<meta name="description" content="Get in touch, no obligation, if you'd like to rent a debt-free Ltd or LLC for a fixed period.">
+<link rel="canonical" href="https://rentyourcompany.com/contact/">
+<meta name="robots" content="index, follow">
+<style>
+:root{
+  --ink:#1b2436;--ink-soft:#67718c;--paper:#FAFAF8;--card:#FFFFFF;--line:#E7E5DE;
+  --navy:#1c2b4a;--navy-light:#EBEEF4;--gold:#B08D47;--radius:16px;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,-apple-system,sans-serif;line-height:1.65;}
+h1{font-family:'Manrope',sans-serif;font-weight:800;letter-spacing:-0.02em;}
+a{color:var(--navy);}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px;}
+.eyebrow{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--gold);}
+header{position:sticky;top:0;z-index:50;background:rgba(250,250,248,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;max-width:1080px;margin:0 auto;}
+.brand{font-family:'Manrope',sans-serif;font-weight:800;font-size:17px;color:var(--ink);text-decoration:none;}
+.brand span{color:var(--gold);}
+.breadcrumb{font-size:12.5px;color:var(--ink-soft);padding:16px 20px 0;max-width:640px;margin:0 auto;}
+.breadcrumb a{color:var(--ink-soft);}
+.head{padding:36px 0 8px;text-align:center;}
+.head h1{font-size:clamp(24px,4vw,30px);margin:12px 0 14px;}
+.head p{color:var(--ink-soft);font-size:15px;margin:0;}
+.choice{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:26px 0 4px;}
+.choice button{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:14px 10px;font-weight:700;font-size:13.5px;color:var(--ink-soft);cursor:pointer;font-family:inherit;}
+.choice button.active{border-color:var(--gold);color:var(--gold);background:#F7F1E6;}
+.panel{display:none;}
+.panel.active{display:block;}
+.booking-box{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:8px;padding:20px 22px;margin:20px 0;font-size:14px;text-align:center;}
+.booking-box a.btn{display:inline-block;margin-top:12px;background:var(--gold);color:#1c2b4a;padding:12px 22px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none;}
+form{display:flex;flex-direction:column;gap:16px;margin:20px 0;}
+form label{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);display:block;margin-bottom:6px;}
+form input[type=text],form input[type=email],form input[type=tel],form select,form textarea{width:100%;padding:12px 14px;border-radius:8px;border:1.5px solid var(--line);background:#fff;font-size:14.5px;font-family:inherit;color:var(--ink);}
+form textarea{min-height:100px;resize:vertical;}
+form input:focus,form textarea:focus,form select:focus{outline:none;border-color:var(--gold);}
+.checkbox-row{display:flex;align-items:flex-start;gap:10px;}
+.checkbox-row input{width:auto;margin-top:3px;}
+.checkbox-row label{font-size:13px;font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink);margin:0;}
+.honey{position:absolute;left:-9999px;}
+
+.role-group{display:flex;flex-direction:column;gap:8px;}
+.role-option{border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;}
+.role-option.active{border-color:var(--gold);background:#F7F1E6;}
+.role-option-head{display:flex;align-items:center;gap:10px;}
+.role-option-head input{width:auto;}
+.role-option-head label{font-size:13.5px;font-weight:600;text-transform:none;letter-spacing:0;color:var(--ink);margin:0;cursor:pointer;}
+
+button.submit{background:var(--navy);color:#fff;border:none;padding:14px 20px;border-radius:999px;font-weight:700;font-size:15px;cursor:pointer;font-family:inherit;}
+button.submit:disabled{opacity:.5;cursor:not-allowed;}
+#form-status{font-size:13px;min-height:18px;color:var(--ink-soft);}
+.disclaimer{font-size:12px;color:var(--ink-soft);margin-top:18px;}
+footer{background:var(--card);border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--ink-soft);font-size:12.5px;margin-top:20px;}
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGD1LTPNQH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FGD1LTPNQH');
+</script>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="/">RentYour<span>Company</span>.com</a>
+  </div>
+</header>
+<nav class="breadcrumb"><a href="/">Home</a> → Contact</nav>
+<div class="wrap">
+  <div class="head">
+    <span class="eyebrow">Contact</span>
+    <h1>Get in touch, no obligation</h1>
+    <p>Tell us briefly about your plans and preferred jurisdiction, or book an initial call directly.</p>
+  </div>
+
+  <div class="choice">
+    <button type="button" id="tab-message" class="active" aria-pressed="true">Send a Message</button>
+    <button type="button" id="tab-booking" aria-pressed="false">Book a Call</button>
+  </div>
+
+  <div class="panel active" id="panel-message">
+    <form id="contact-form" novalidate>
+      <input type="text" name="website" class="honey" tabindex="-1" autocomplete="off">
+
+      <div><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+      <div><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+      <div><label for="phone">Phone Number <span style="text-transform:none;font-weight:400;color:var(--ink-soft);">(optional)</span></label><input type="tel" id="phone" name="phone" autocomplete="tel"></div>
+
+      <div><label for="usage">Intended Use of the Company</label><textarea id="usage" name="usage" required placeholder="e.g. industry, activity, intended use"></textarea></div>
+
+      <div>
+        <label>Preferred Jurisdiction</label>
+        <div class="role-group">
+          <div class="role-option" data-jur="ltd">
+            <div class="role-option-head">
+              <input type="radio" id="jur-ltd" name="jurisdiction" value="uk_ltd">
+              <label for="jur-ltd">UK Ltd</label>
+            </div>
+          </div>
+          <div class="role-option" data-jur="llc">
+            <div class="role-option-head">
+              <input type="radio" id="jur-llc" name="jurisdiction" value="us_llc">
+              <label for="jur-llc">US LLC</label>
+            </div>
+          </div>
+          <div class="role-option" data-jur="either">
+            <div class="role-option-head">
+              <input type="radio" id="jur-either" name="jurisdiction" value="either">
+              <label for="jur-either">Either / not sure yet</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <label>Preferred Lease Duration</label>
+        <div class="role-group">
+          <div class="role-option" data-duration="short">
+            <div class="role-option-head">
+              <input type="radio" id="dur-short" name="duration" value="1_2_months">
+              <label for="dur-short">1–2 months</label>
+            </div>
+          </div>
+          <div class="role-option" data-duration="mid">
+            <div class="role-option-head">
+              <input type="radio" id="dur-mid" name="duration" value="3_6_months">
+              <label for="dur-mid">3–6 months</label>
+            </div>
+          </div>
+          <div class="role-option" data-duration="long">
+            <div class="role-option-head">
+              <input type="radio" id="dur-long" name="duration" value="over_6_months">
+              <label for="dur-long">Over 6 months</label>
+            </div>
+          </div>
+          <div class="role-option" data-duration="open">
+            <div class="role-option-head">
+              <input type="radio" id="dur-open" name="duration" value="not_sure">
+              <label for="dur-open">Not sure yet / with extension option</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div><label for="branch">Preferred Industry <span style="text-transform:none;font-weight:400;color:var(--ink-soft);">(optional)</span></label><input type="text" id="branch" name="branch" placeholder="e.g. consulting, trading, IT"></div>
+
+      <div><label for="timeline">Preferred Start <span style="text-transform:none;font-weight:400;color:var(--ink-soft);">(optional)</span></label>
+        <select id="timeline" name="timeline">
+          <option value="">Please select</option>
+          <option value="asap">As soon as possible</option>
+          <option value="weeks">Within a few weeks</option>
+          <option value="open">Timing still open</option>
+        </select>
+      </div>
+
+      <div><label for="notes">Special Requirements <span style="text-transform:none;font-weight:400;color:var(--ink-soft);">(optional)</span></label><textarea id="notes" name="notes" placeholder="e.g. confidentiality requirements, location, banking preferences"></textarea></div>
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">I have read the <a href="/privacy/" target="_blank" rel="noopener">Privacy Policy</a> and agree to the processing of my details for the purpose of handling this enquiry. *</label>
+      </div>
+
+      <button type="submit" class="submit" id="submit-btn">Send Enquiry</button>
+      <div id="form-status" role="status" aria-live="polite"></div>
+      <p class="disclaimer">Your enquiry will be treated confidentially and reviewed personally.</p>
+    </form>
+  </div>
+
+  <div class="panel" id="panel-booking">
+    <div class="booking-box">
+      📅 Book a free, no-obligation initial call by Zoom directly.
+      <br><a class="btn" href="https://telefon-termin.com/beratung/">Book a Call →</a>
+    </div>
+  </div>
+</div>
+<footer>© <span id="year"></span> RentYourCompany.com — a service by PAN21.COM Corporate Consultants Ltd</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script>
+(function(){
+  var tabMsg = document.getElementById('tab-message');
+  var tabBook = document.getElementById('tab-booking');
+  var panelMsg = document.getElementById('panel-message');
+  var panelBook = document.getElementById('panel-booking');
+  function activate(tab){
+    var isMsg = tab === 'message';
+    tabMsg.classList.toggle('active', isMsg);
+    tabBook.classList.toggle('active', !isMsg);
+    tabMsg.setAttribute('aria-pressed', isMsg);
+    tabBook.setAttribute('aria-pressed', !isMsg);
+    panelMsg.classList.toggle('active', isMsg);
+    panelBook.classList.toggle('active', !isMsg);
+  }
+  tabMsg.addEventListener('click', function(){ activate('message'); });
+  tabBook.addEventListener('click', function(){ activate('booking'); });
+
+  var roleOptions = document.querySelectorAll('.role-option');
+  roleOptions.forEach(function(opt){
+    var radio = opt.querySelector('input[type=radio]');
+    var group = radio.name;
+    opt.addEventListener('click', function(){
+      radio.checked = true;
+      document.querySelectorAll('.role-option').forEach(function(o){
+        var r = o.querySelector('input[type=radio]');
+        if (r.name === group) o.classList.remove('active');
+      });
+      opt.classList.add('active');
+    });
+  });
+
+  var loadTime = Date.now();
+  var form = document.getElementById('contact-form');
+  var statusEl = document.getElementById('form-status');
+  var btn = document.getElementById('submit-btn');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var elapsed = Math.round((Date.now() - loadTime) / 1000);
+    var jurRadio = form.querySelector('input[name="jurisdiction"]:checked');
+    var durRadio = form.querySelector('input[name="duration"]:checked');
+    var data = {
+      name: form.name.value.trim(), email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      usage: form.usage.value.trim(),
+      jurisdiction: jurRadio ? jurRadio.value : '',
+      duration: durRadio ? durRadio.value : '',
+      branch: form.branch.value.trim(),
+      timeline: form.timeline.value,
+      notes: form.notes.value.trim(),
+      website: form.website.value, elapsed: elapsed,
+      consent: form.consent.checked
+    };
+    if(!data.name || !data.email || !data.usage){
+      statusEl.textContent = 'Please fill in all required fields.'; statusEl.style.color = '#b45309'; return;
+    }
+    if(!data.consent){
+      statusEl.textContent = 'Please confirm the Privacy Policy.'; statusEl.style.color = '#b45309'; return;
+    }
+    btn.disabled = true; statusEl.textContent = 'Sending…'; statusEl.style.color = '#6b7280';
+    fetch('/api/contact', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data) })
+      .then(function(res){ return res.json().then(function(j){ return {ok: res.ok, body: j}; }); })
+      .then(function(r){
+        if(r.ok){ statusEl.textContent = 'Thank you — your enquiry will be reviewed confidentially.'; statusEl.style.color = '#1c2b4a'; form.reset(); roleOptions.forEach(function(o){o.classList.remove('active');}); }
+        else { statusEl.textContent = (r.body && r.body.error) || 'Sending failed.'; statusEl.style.color = '#b45309'; btn.disabled = false; }
+      }).catch(function(){ statusEl.textContent = 'Sending failed.'; statusEl.style.color = '#b45309'; btn.disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>
