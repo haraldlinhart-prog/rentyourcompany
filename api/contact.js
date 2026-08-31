@@ -38,9 +38,11 @@ function escapeHtml(str) {
 }
 
 var JURISDICTION_LABELS = {
-  uk_ltd: 'UK Ltd',
-  us_llc: 'US LLC',
-  either: 'Either / not sure yet'
+  us_llc: 'USA (LLC)',
+  uk_ltd: 'United Kingdom (Ltd)',
+  de_gmbh: 'Germany (GmbH / UG)',
+  hk_ltd: 'Hong Kong',
+  either: 'Not sure yet / advise me'
 };
 
 var DURATION_LABELS = {

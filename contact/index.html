@@ -98,22 +98,34 @@ footer{background:var(--card);border-top:1px solid var(--line);padding:30px 0;te
       <div>
         <label>Preferred Jurisdiction</label>
         <div class="role-group">
-          <div class="role-option" data-jur="ltd">
+          <div class="role-option" data-jur="us">
             <div class="role-option-head">
-              <input type="radio" id="jur-ltd" name="jurisdiction" value="uk_ltd">
-              <label for="jur-ltd">UK Ltd</label>
+              <input type="radio" id="jur-us" name="jurisdiction" value="us_llc">
+              <label for="jur-us">USA (LLC)</label>
             </div>
           </div>
-          <div class="role-option" data-jur="llc">
+          <div class="role-option" data-jur="uk">
             <div class="role-option-head">
-              <input type="radio" id="jur-llc" name="jurisdiction" value="us_llc">
-              <label for="jur-llc">US LLC</label>
+              <input type="radio" id="jur-uk" name="jurisdiction" value="uk_ltd">
+              <label for="jur-uk">United Kingdom (Ltd)</label>
+            </div>
+          </div>
+          <div class="role-option" data-jur="de">
+            <div class="role-option-head">
+              <input type="radio" id="jur-de" name="jurisdiction" value="de_gmbh">
+              <label for="jur-de">Germany (GmbH / UG)</label>
+            </div>
+          </div>
+          <div class="role-option" data-jur="hk">
+            <div class="role-option-head">
+              <input type="radio" id="jur-hk" name="jurisdiction" value="hk_ltd">
+              <label for="jur-hk">Hong Kong</label>
             </div>
           </div>
           <div class="role-option" data-jur="either">
             <div class="role-option-head">
               <input type="radio" id="jur-either" name="jurisdiction" value="either">
-              <label for="jur-either">Either / not sure yet</label>
+              <label for="jur-either">Not sure yet / advise me</label>
             </div>
           </div>
         </div>

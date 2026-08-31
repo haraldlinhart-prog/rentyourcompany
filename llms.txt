@@ -1,11 +1,11 @@
 # RentYourCompany.com
 
-> RentYourCompany.com offers debt-free UK Ltd or US LLC companies for temporary lease — including director/manager, shareholder/member, registered office, website, email, phone, credit standing and bank account. Available from 1 month, ready to trade immediately, with lower rates for longer lease terms.
+> RentYourCompany.com offers debt-free companies in the USA (LLC), UK (Ltd), Germany (GmbH/UG) or Hong Kong for temporary lease — including director/manager, shareholder/member, registered office, website, email, phone, credit standing and bank account. Jurisdiction is set up according to the client's requirements. Available from 1 month, ready to trade immediately, with lower rates for longer lease terms.
 
 This file is aimed at AI assistants and language models (llms.txt standard) and briefly describes what this website is about, so that content can be correctly understood and summarized.
 
 ## Topics on this site
-- Choice of jurisdiction: UK Ltd or US LLC
+- Choice of jurisdiction: USA (LLC), UK (Ltd), Germany (GmbH/UG) or Hong Kong
 - What you receive with the company on lease
 - Rental pricing by lease duration
 - At the end of the lease (handback, name change in the official register)
@@ -13,3 +13,4 @@ This file is aimed at AI assistants and language models (llms.txt standard) and 
 
 ## Contact
 - Website: https://www.rentyourcompany.com
+
