@@ -34,3 +34,4 @@ Sitemap: https://www.rentyourcompany.com/sitemap.xml
 
 # LLM-readable summary of this website:
 # https://www.rentyourcompany.com/llms.txt
+Sitemap: https://www.rentyourcompany.com/sitemap-blog.xml
