@@ -56,15 +56,8 @@ button.submit:disabled{opacity:.5;cursor:not-allowed;}
 #form-status{font-size:13px;min-height:18px;color:var(--ink-soft);}
 .disclaimer{font-size:12px;color:var(--ink-soft);margin-top:18px;}
 footer{background:var(--card);border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--ink-soft);font-size:12.5px;margin-top:20px;}
+footer a{color:var(--ink-soft);}
 </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGD1LTPNQH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-FGD1LTPNQH');
-</script>
 </head>
 <body>
 <header>
@@ -192,7 +185,7 @@ footer{background:var(--card);border-top:1px solid var(--line);padding:30px 0;te
     </div>
   </div>
 </div>
-<footer>© <span id="year"></span> RentYourCompany.com — a service by PAN21.COM Corporate Consultants Ltd</footer>
+<footer><a href="/contact/">Contact</a> · <a href="/imprint/">Imprint</a> · <a href="/privacy/">Privacy Policy</a><br>© <span id="year"></span> RentYourCompany.com — a service by PAN21.com International LLC</footer>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 <script>
 (function(){
