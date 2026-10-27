@@ -19,5 +19,52 @@
     }
   ],
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/blog/firma-mieten-schneller-und-flexibler-start-fur-ihr-geschaft{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gmbh-vermietung-flexible-unternehmensnutzung-ohne-grundungsaufwand{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/flexible-firmenlosung-wie-unternehmen-heute-ohne-grundungsaufwand-durc{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/firma-auf-zeit-flexibel-und-rechtssicher-zum-eigenen-unternehmen{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gmbh-miete-de-ihr-direkter-zugang-zur-sofort-einsatzbereiten-kapitalge{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vorratsgesellschaft-deutschland-ihre-schnelle-losung-fur-den-geschafts{/}?",
+      "destination": "/blog/vorratsgesellschaft-mieten-schneller-start-in-die-selbststandigkeit/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gmbh-ohne-eigenen-geschaftsfuhrer-betreiben-nominee-losungen-fur-opera{/}?",
+      "destination": "/blog/treuhander-geschaftsfuhrer-wann-diese-losung-fur-ihr-unternehmen-sinnv/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/geschaftsfuhrer-auf-treuhandbasis-kosten-was-sie-bei-rentyourcompany-c{/}?",
+      "destination": "/blog/nominee-director-kosten-preise-leistungen-und-versteckte-gebuhren-bei-/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/briefkastenfirma-deutschland-legal-mieten-so-nutzen-sie-legitime-gesch{/}?",
+      "destination": "/blog/geschaftsadresse-deutschland-geschaftlich-warum-der-richtige-standort-/",
+      "permanent": true
+    }
+  ]
 }
