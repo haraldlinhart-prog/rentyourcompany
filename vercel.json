@@ -65,6 +65,16 @@
       "source": "/blog/briefkastenfirma-deutschland-legal-mieten-so-nutzen-sie-legitime-gesch{/}?",
       "destination": "/blog/geschaftsadresse-deutschland-geschaftlich-warum-der-richtige-standort-/",
       "permanent": true
+    },
+    {
+      "source": "/blog/geschaftsadresse-deutschland-geschaftlich-warum-der-richtige-standort-",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/geschaftsadresse-deutschland-geschaftlich-warum-der-richtige-standort-/",
+      "destination": "/blog/",
+      "permanent": true
     }
   ]
 }
