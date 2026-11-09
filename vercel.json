@@ -16,11 +16,60 @@
           "value": "strict-origin-when-cross-origin"
         }
       ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "rentyourcompany.vercel.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
     }
   ],
   "cleanUrls": true,
   "trailingSlash": true,
   "redirects": [
+    {
+      "source": "/impressum{/}?",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/datenschutz{/}?",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/legal{/}?",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy{/}?",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/imprint.html",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
     {
       "source": "/:path(.*)",
       "has": [
