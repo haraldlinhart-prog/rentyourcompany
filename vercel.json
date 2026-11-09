@@ -22,14 +22,14 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/:path(.*)",
       "has": [
         {
           "type": "host",
           "value": "rentyourcompany.vercel.app"
         }
       ],
-      "destination": "https://www.rentyourcompany.com/:path*",
+      "destination": "https://www.rentyourcompany.com/:path",
       "permanent": true
     },
     {
