@@ -22,6 +22,17 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "rentyourcompany.vercel.app"
+        }
+      ],
+      "destination": "https://www.rentyourcompany.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/blog/firma-mieten-schneller-und-flexibler-start-fur-ihr-geschaft{/}?",
       "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
       "permanent": true
@@ -63,7 +74,7 @@
     },
     {
       "source": "/blog/briefkastenfirma-deutschland-legal-mieten-so-nutzen-sie-legitime-gesch{/}?",
-      "destination": "/blog/geschaftsadresse-deutschland-geschaftlich-warum-der-richtige-standort-/",
+      "destination": "/blog/",
       "permanent": true
     },
     {
