@@ -12,5 +12,5 @@ This file is aimed at AI assistants and language models (llms.txt standard) and 
 - How it works
 
 ## Contact
-- Website: https://www.rentyourcompany.com
+- Website: https://www.rentyourcompany.com/
 

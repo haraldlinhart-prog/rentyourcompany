@@ -3,10 +3,158 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "rentyourcompany.vercel.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/impressum",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/impressum/",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/datenschutz",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/datenschutz/",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/legal",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/imprint.html",
+      "destination": "/imprint/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "rentyourcompany.vercel.app"
+        }
+      ],
+      "destination": "https://www.rentyourcompany.com/:path",
+      "permanent": true
+    },
+    {
+      "source": "/blog/firma-mieten-schneller-und-flexibler-start-fur-ihr-geschaft{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gmbh-vermietung-flexible-unternehmensnutzung-ohne-grundungsaufwand{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/flexible-firmenlosung-wie-unternehmen-heute-ohne-grundungsaufwand-durc{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/firma-auf-zeit-flexibel-und-rechtssicher-zum-eigenen-unternehmen{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gmbh-miete-de-ihr-direkter-zugang-zur-sofort-einsatzbereiten-kapitalge{/}?",
+      "destination": "/blog/gmbh-mieten-der-schnelle-weg-zur-eigenen-kapitalgesellschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vorratsgesellschaft-deutschland-ihre-schnelle-losung-fur-den-geschafts{/}?",
+      "destination": "/blog/vorratsgesellschaft-mieten-schneller-start-in-die-selbststandigkeit/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gmbh-ohne-eigenen-geschaftsfuhrer-betreiben-nominee-losungen-fur-opera{/}?",
+      "destination": "/blog/treuhander-geschaftsfuhrer-wann-diese-losung-fur-ihr-unternehmen-sinnv/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/geschaftsfuhrer-auf-treuhandbasis-kosten-was-sie-bei-rentyourcompany-c{/}?",
+      "destination": "/blog/nominee-director-kosten-preise-leistungen-und-versteckte-gebuhren-bei-/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/briefkastenfirma-deutschland-legal-mieten-so-nutzen-sie-legitime-gesch{/}?",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/geschaftsadresse-deutschland-geschaftlich-warum-der-richtige-standort-",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/geschaftsadresse-deutschland-geschaftlich-warum-der-richtige-standort-/",
+      "destination": "/blog/",
+      "permanent": true
     }
   ]
 }
